@@ -1,0 +1,2 @@
+# layout-generator
+Yeoman generator
