@@ -3,7 +3,7 @@ var path = require('path');
 var assert = require('yeoman-assert');
 var helpers = require('yeoman-test');
 
-describe('generator-mooglay:app', function () {
+describe('generator-moog-generator:app', function () {
   before(function () {
     return helpers.run(path.join(__dirname, '../generators/app'))
       .withPrompts({someAnswer: true})
@@ -12,7 +12,7 @@ describe('generator-mooglay:app', function () {
 
   it('creates files', function () {
     assert.file([
-      'index.html'
+      'dummyfile.txt'
     ]);
   });
 });

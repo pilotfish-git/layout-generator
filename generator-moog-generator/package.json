@@ -1,20 +1,19 @@
 {
-  "name": "generator-mooglay",
+  "name": "generator-moog-generator",
   "version": "0.0.0",
-  "description": "Layout generator moog",
+  "description": "",
   "homepage": "",
   "author": {
-    "name": "Zabe",
-    "email": "zabe.sangary@pilotfish.eu",
-    "url": "Zabe Sangay"
+    "name": "Albert",
+    "email": "xyb1114@gmail.com",
+    "url": ""
   },
   "files": [
     "generators"
   ],
   "main": "generators/index.js",
   "keywords": [
-    "moog",
-    "layout",
+    "",
     "yeoman-generator"
   ],
   "dependencies": {
@@ -43,10 +42,10 @@
       "mocha": true
     }
   },
-  "repository": "git@github.com:pilotfish-git/layout-generator.git",
+  "repository": "AlbertWhite/generator-moog-generator",
   "scripts": {
     "prepublish": "gulp prepublish",
     "test": "gulp"
   },
-  "license": "MIT"
+  "license": "Apache-2.0"
 }
