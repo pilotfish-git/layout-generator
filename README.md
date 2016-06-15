@@ -1,20 +1,28 @@
-# generator-mooglay [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
-> Layout generator moog
 
-## Installation
+# Moog-generator
 
-First, install [Yeoman](http://yeoman.io) and generator-mooglay using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+##Installation
+To get started clone the project from Github
 
-```bash
-npm install -g yo
-npm install -g generator-mooglay
-```
+        $ git clone https://github.com/pilotfish-git/layout-generator.git
 
-Then generate your new project:
+Install yeoman by the command
 
-```bash
-yo mooglay
-```
+        $ npm install -g yo
+
+##Using the template
+
+First, go to the folder where you want to put the new template, for example, the /sample folder in layout-generator
+
+        $ cd/sample
+
+Then,run 'yo' command
+
+        $ yo
+        
+In the terminal, you can choose which template you need, and install to the current folder
+
+
 
 ## Getting To Know Yeoman
 
@@ -23,16 +31,4 @@ yo mooglay
  * Yeoman can be too opinionated at times but is easily convinced not to be.
  * Feel free to [learn more about Yeoman](http://yeoman.io/).
 
-## License
 
-MIT © [Zabe](Zabe Sangay)
-
-
-[npm-image]: https://badge.fury.io/js/generator-mooglay.svg
-[npm-url]: https://npmjs.org/package/generator-mooglay
-[travis-image]: https://travis-ci.org/pilotfish-git/generator-mooglay.svg?branch=master
-[travis-url]: https://travis-ci.org/pilotfish-git/generator-mooglay
-[daviddm-image]: https://david-dm.org/pilotfish-git/generator-mooglay.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/pilotfish-git/generator-mooglay
-[coveralls-image]: https://coveralls.io/repos/pilotfish-git/generator-mooglay/badge.svg
-[coveralls-url]: https://coveralls.io/r/pilotfish-git/generator-mooglay
