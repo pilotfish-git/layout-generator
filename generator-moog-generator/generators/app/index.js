@@ -23,7 +23,7 @@ module.exports = yeoman.Base.extend({
       default: true
     }];
 
-    return this.prompt(prompts).then(function (props) {//choose which type of template do we want
+    return this.prompt(prompts).then(function (props) { //choose which type of template do we want
       this.props = props;
       var sidebar = props.sidebar;
       var footbar = props.footbar;

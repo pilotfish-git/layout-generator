@@ -329,7 +329,7 @@ input[type=checkbox].css-checkbox + label.css-label, input[type=checkbox].css-ch
   margin: 9px 0;
   background-repeat: no-repeat;
   width: 100%;
-  background-image: url("../content/moog-img/checkbox_2.png");
+  background-image: url("../images/checkbox_2.png");
 }
 /* line 25, ../components/angular-moog-components/dist/sass/basics/checkbox/_checkbox.sass */
 input[type=checkbox].css-checkbox + label.css-label:first-letter, input[type=checkbox].css-checkbox-desktop + label.css-label:first-letter, input[type=checkbox].css-checkbox-medium + label.css-label:first-letter {
@@ -351,7 +351,7 @@ input[type=checkbox].css-checkbox-desktop + label.css-label {
   line-height: 30px;
   background-repeat: no-repeat;
   width: 100%;
-  background-image: url("../content/moog-img/checkbox_small.png");
+  background-image: url("../images/checkbox_small.png");
 }
 /* line 47, ../components/angular-moog-components/dist/sass/basics/checkbox/_checkbox.sass */
 input[type=checkbox].css-checkbox-desktop + label.css-label:first-letter {
@@ -373,7 +373,7 @@ input[type=checkbox].css-checkbox-medium + label.css-label {
   line-height: 30px;
   background-repeat: no-repeat;
   width: 100%;
-  background-image: url("../content/moog-img/checkbox_21px.png");
+  background-image: url("../images/checkbox_21px.png");
   background-position: 0 -1px;
 }
 /* line 69, ../components/angular-moog-components/dist/sass/basics/checkbox/_checkbox.sass */
@@ -547,9 +547,9 @@ dl.indent-list.large dt.high, dl.indent-list.large dd.high, dl.indent-list.large
 }*/
 
 /* line 6, components/angular-moog-components/dist/sass/simodont/global/_global.sass */
-/*body {
+body {
   background-color: #d6d6d6;
-}*/
+}
 
 /* line 13, components/angular-moog-components/dist/sass/simodont/global/_global.sass */
 /*p {
@@ -645,9 +645,9 @@ ul.dropdown-menu.dropdown-right.pull-right {
 }
 
 /* line 34, ../components/angular-moog-components/dist/sass/simodont/layout/_layout.sass */
-/*.main {
+.main {
   overflow: hidden;
-}*/
+}
 
 /* line 38, ../components/angular-moog-components/dist/sass/simodont/layout/_layout.sass */
 #slide-container {
@@ -920,12 +920,12 @@ ul.dropdown-menu.dropdown-right.pull-right {
 }
 
 /* line 28, components/angular-moog-components/dist/sass/simodont/dropdown/_dropdown.sass */
-/*.dropdown {
+.dropdown {
   position: relative;
-}*/
+}
 
 /* line 31, components/angular-moog-components/dist/sass/simodont/dropdown/_dropdown.sass */
-/*.dropdown-menu {
+.dropdown-menu {
   box-sizing: border-box;
   position: absolute;
   top: calc(100% + 6px);
@@ -938,9 +938,9 @@ ul.dropdown-menu.dropdown-right.pull-right {
   border-radius: 4px;
   -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
-}*/
+}
 /* line 46, components/angular-moog-components/dist/sass/simodont/dropdown/_dropdown.sass */
-/*.dropdown-menu:after {
+.dropdown-menu:after {
   content: "";
   display: block;
   width: 0;
@@ -952,23 +952,23 @@ ul.dropdown-menu.dropdown-right.pull-right {
   top: -14px;
   right: 16px;
   z-index: 88;
-}*/
+}
 /* line 60, components/angular-moog-components/dist/sass/simodont/dropdown/_dropdown.sass */
-/*.dropdown-menu span.slide {
+.dropdown-menu span.slide {
   margin-right: -9px;
   margin-top: -6px;
-}*/
+}
 /* line 65, components/angular-moog-components/dist/sass/simodont/dropdown/_dropdown.sass */
-/*.dropdown-menu .divider {
+.dropdown-menu .divider {
   height: 1px;
   width: 100%;
   margin: 5px 0;
   overflow: hidden;
   background-color: #9c9c9c;
   box-shadow: 0px 1px 2px #2A2A2A;
-}*/
+}
 /* line 74, components/angular-moog-components/dist/sass/simodont/dropdown/_dropdown.sass */
-/*.dropdown-menu > li > span, .dropdown-menu > li > a {
+.dropdown-menu > li > span, .dropdown-menu > li > a {
   display: block;
   padding: 12px 15px;
   font-weight: normal;
@@ -976,7 +976,7 @@ ul.dropdown-menu.dropdown-right.pull-right {
   color: #f6f6f6;
   text-decoration: none;
   border-radius: 3px;
-}*/
+}
 /* line 82, components/angular-moog-components/dist/sass/simodont/dropdown/_dropdown.sass */
 .dropdown-menu > li > span:hover, .dropdown-menu > li > span:focus, .dropdown-menu > li > span:active, .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-menu > li > a:active {
   text-decoration: none;
@@ -1013,7 +1013,7 @@ input[type=checkbox].slide, span.slide {
   width: 67px;
   -webkit-appearance: none;
   -webkit-border-radius: 4px;
-  background-image: url(../content/moog-img/checkbox-slide.png);
+  background-image: url(../images/checkbox-slide.png);
   background-position: -34px 0;
   background-repeat: no-repeat;
   float: right;
@@ -1060,7 +1060,7 @@ input[type=checkbox].slide.animation, span.slide.animation {
 .progress-alert-container .alert.alert-question {
   background-color: #f9cd8b;
   border-color: #ab742a;
-  //background-image: url(../content/moog-img/alert_icon_warning.png);
+  //background-image: url(../images/alert_icon_warning.png);
 }
 
 
@@ -1068,25 +1068,25 @@ input[type=checkbox].slide.animation, span.slide.animation {
 .progress-alert-container .alert.alert-warning {
   background-color: #f9cd8b;
   border-color: #ab742a;
-  //background-image: url(../content/moog-img/alert_icon_warning.png);
+  //background-image: url(../images/alert_icon_warning.png);
 }
 /* line 35, components/angular-moog-components/dist/sass/simodont/alerts/_alerts.sass */
 .progress-alert-container .alert.alert-error {
   background-color: #fac5af;
   border-color: #a13324;
-  //background-image: url(../content/moog-img/alert_icon_error.png);
+  //background-image: url(../images/alert_icon_error.png);
 }
 /* line 39, components/angular-moog-components/dist/sass/simodont/alerts/_alerts.sass */
 .progress-alert-container .alert.alert-info {
   background-color: #a7caeb;
   border-color: #435f7c;
-  //background-image: url(../content/moog-img/alert_icon_info.png);
+  //background-image: url(../images/alert_icon_info.png);
 }
 
 .progress-alert-container .alert.alert-success {
   background-color: rgb(199,231,156);
   border-color: rgb(67,129,59);
-  //background-image: url(../content/moog-img/alert_icon_info.png);
+  //background-image: url(../images/alert_icon_info.png);
 }
 
 /* line 47, components/angular-moog-components/dist/sass/simodont/alerts/_alerts.sass */
@@ -1095,25 +1095,25 @@ input[type=checkbox].slide.animation, span.slide.animation {
 }
 /* line 49, components/angular-moog-components/dist/sass/simodont/alerts/_alerts.sass */
 .progress-alert-container-dialog .alert.alert-warning {
-  background-image: url(../content/moog-img/alert_icon_warning.png);
+  background-image: url(../images/alert_icon_warning.png);
   height: 65px;
 }
 /* line 51, components/angular-moog-components/dist/sass/simodont/alerts/_alerts.sass */
 .progress-alert-container-dialog .alert.alert-error {
-  background-image: url(../content/moog-img/alert_icon_error.png);
+  background-image: url(../images/alert_icon_error.png);
 }
 /* line 53, components/angular-moog-components/dist/sass/simodont/alerts/_alerts.sass */
 .progress-alert-container-dialog .alert.alert-info {
-  background-image: url(../content/moog-img/alert_icon_info.png);
+  background-image: url(../images/alert_icon_info.png);
 }
 
 /* line 1, components/angular-moog-components/dist/sass/simodont/header/_header.sass */
 header {
   background: url("../images/glow.png?1398348168"), -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #87212e), color-stop(100%, #353030));
-  background: url("../content/moog-img/glow.png?1398348168"), -webkit-linear-gradient(left, #87212e, #353030);
-  background: url("../content/moog-img/glow.png?1398348168"), -moz-linear-gradient(left, #87212e, #353030);
-  background: url("../content/moog-img/glow.png?1398348168"), -o-linear-gradient(left, #87212e, #353030);
-  background: url("../content/moog-img/glow.png?1398348168"), linear-gradient(left, #87212e, #353030);
+  background: url("../images/glow.png?1398348168"), -webkit-linear-gradient(left, #87212e, #353030);
+  background: url("../images/glow.png?1398348168"), -moz-linear-gradient(left, #87212e, #353030);
+  background: url("../images/glow.png?1398348168"), -o-linear-gradient(left, #87212e, #353030);
+  background: url("../images/glow.png?1398348168"), linear-gradient(left, #87212e, #353030);
   background-repeat: no-repeat;
   padding-left: 16px;
   height: 44px;
@@ -1132,7 +1132,7 @@ header .logo {
   float: left;
   height: 12px;
   width: 87px;
-  background-image: url("/content/moog-img/logo.png");
+  background-image: url("../images/logo.png");
   background-repeat: no-repeat;
 }
 /* line 26, components/angular-moog-components/dist/sass/simodont/header/_header.sass */
@@ -1141,7 +1141,7 @@ header .title {
   float: left;
   font-family: ApexSansBook verdana, arial, helvetica, sans-serif;
   font-size: 10pt;
-  margin: 19px 0 0 15px;
+  margin: 16px 0 0 15px;
   color: white;
 }
 /* line 34, components/angular-moog-components/dist/sass/simodont/header/_header.sass */
@@ -1190,16 +1190,16 @@ header .button-group .profile-container {
 /* line 29, ../components/angular-moog-components/dist/sass/simodont/tiles/_tiles.sass */
 .tile .details-info-button, .case-item .details-info-button, .instrument .details-info-button, .patient .details-info-button, .model .details-info-button, .instrument-set .details-info-button, .group-item .details-info-button, .report-item .details-info-button, .global-img-list .global-img-list-item .details-info-button, .preview-image-container .details-info-button, .case-description-container .case-description-item-container .case-preview-image-container .details-info-button, .patient-details-container .patient-details-item-container .wide .patient-preview-image-container .details-info-button, .treatment-execution-container .simulator-settings-container .realtime-statistics-container .realtime-statistics-content .segments-list ul li .details-info-button, .reports-home-container .reporting-type-container .reporting-type .details-info-button {
   position: absolute;
-  background: url("../content/moog-img/info_button_icon.png") no-repeat center;
+  background: url("../images/info_button_icon.png") no-repeat center;
   box-shadow: 0 1px 1px #808080;
 }
 /* line 34, ../components/angular-moog-components/dist/sass/simodont/tiles/_tiles.sass */
 .tile .details-info-button:hover, .case-item .details-info-button:hover, .instrument .details-info-button:hover, .patient .details-info-button:hover, .model .details-info-button:hover, .instrument-set .details-info-button:hover, .group-item .details-info-button:hover, .report-item .details-info-button:hover, .global-img-list .global-img-list-item .details-info-button:hover, .preview-image-container .details-info-button:hover, .case-description-container .case-description-item-container .case-preview-image-container .details-info-button:hover, .patient-details-container .patient-details-item-container .wide .patient-preview-image-container .details-info-button:hover, .treatment-execution-container .simulator-settings-container .realtime-statistics-container .realtime-statistics-content .segments-list ul li .details-info-button:hover, .reports-home-container .reporting-type-container .reporting-type .details-info-button:hover {
-  background: url("../content/moog-img/info_button_icon.png") no-repeat center, #b2b2b2;
+  background: url("../images/info_button_icon.png") no-repeat center, #b2b2b2;
 }
 /* line 37, ../components/angular-moog-components/dist/sass/simodont/tiles/_tiles.sass */
 .tile .details-info-button:active, .case-item .details-info-button:active, .instrument .details-info-button:active, .patient .details-info-button:active, .model .details-info-button:active, .instrument-set .details-info-button:active, .group-item .details-info-button:active, .report-item .details-info-button:active, .global-img-list .global-img-list-item .details-info-button:active, .preview-image-container .details-info-button:active, .case-description-container .case-description-item-container .case-preview-image-container .details-info-button:active, .patient-details-container .patient-details-item-container .wide .patient-preview-image-container .details-info-button:active, .treatment-execution-container .simulator-settings-container .realtime-statistics-container .realtime-statistics-content .segments-list ul li .details-info-button:active, .reports-home-container .reporting-type-container .reporting-type .details-info-button:active, .tile .details-info-button.active, .case-item .details-info-button.active, .instrument .details-info-button.active, .patient .details-info-button.active, .model .details-info-button.active, .instrument-set .details-info-button.active, .group-item .details-info-button.active, .report-item .details-info-button.active, .global-img-list .global-img-list-item .details-info-button.active, .preview-image-container .details-info-button.active, .case-description-container .case-description-item-container .case-preview-image-container .details-info-button.active, .patient-details-container .patient-details-item-container .wide .patient-preview-image-container .details-info-button.active, .treatment-execution-container .simulator-settings-container .realtime-statistics-container .realtime-statistics-content .segments-list ul li .details-info-button.active, .reports-home-container .reporting-type-container .reporting-type .details-info-button.active {
-  background: url("../content/moog-img/info_button_icon.png") no-repeat center, #808080;
+  background: url("../images/info_button_icon.png") no-repeat center, #808080;
   box-shadow: none;
 }
 
@@ -1246,23 +1246,23 @@ header .button-group .profile-container {
 }
 /* line 80, ../components/angular-moog-components/dist/sass/simodont/tiles/_tiles.sass */
 .case-item .case-details-bottom .case-info-icon.new {
-  background: url(../content/moog-img/attempt_icon_new.png) no-repeat center;
+  background: url(../images/attempt_icon_new.png) no-repeat center;
 }
 /* line 82, ../components/angular-moog-components/dist/sass/simodont/tiles/_tiles.sass */
 .case-item .case-details-bottom .case-info-icon.done {
-  background: url(../content/moog-img/attempt_icon_done.png) no-repeat center;
+  background: url(../images/attempt_icon_done.png) no-repeat center;
 }
 /* line 84, ../components/angular-moog-components/dist/sass/simodont/tiles/_tiles.sass */
 .case-item .case-details-bottom .case-info-icon.graded {
-  background: url(../content/moog-img/attempt_icon_graded.png) no-repeat center;
+  background: url(../images/attempt_icon_graded.png) no-repeat center;
 }
 /* line 86, ../components/angular-moog-components/dist/sass/simodont/tiles/_tiles.sass */
 .case-item .case-details-bottom .case-info-icon.inprogress {
-  background: url(../content/moog-img/attempt_icon_inProgress.png) no-repeat center;
+  background: url(../images/attempt_icon_inProgress.png) no-repeat center;
 }
 /* line 88, ../components/angular-moog-components/dist/sass/simodont/tiles/_tiles.sass */
 .case-item .case-details-bottom .case-info-icon.published {
-  background: url(../content/moog-img/attempt_icon_graded.png) no-repeat center;
+  background: url(../images/attempt_icon_graded.png) no-repeat center;
 }
 /* line 91, ../components/angular-moog-components/dist/sass/simodont/tiles/_tiles.sass */
 .case-item .case-details-bottom .case-info-icon.level {
@@ -1393,7 +1393,7 @@ header .button-group .profile-container {
   width: 55px;
   height: 5px;
   position: absolute;
-  background-image: url(../content/moog-img/instrument_dots.png);
+  background-image: url(../images/instrument_dots.png);
   background-repeat: repeat-x;
 }
 /* line 214, ../components/angular-moog-components/dist/sass/simodont/tiles/_tiles.sass */
@@ -1417,7 +1417,7 @@ header .button-group .profile-container {
   right: -9px;
   bottom: -2px;
   z-index: 5;
-  background: url(../content/moog-img/delete.png) no-repeat center, -webkit-gradient(linear, left bottom, left top, from(#d6d6d6), to(#f6f6f6));
+  background: url(../images/delete.png) no-repeat center, -webkit-gradient(linear, left bottom, left top, from(#d6d6d6), to(#f6f6f6));
   border-radius: 50%;
 }
 
@@ -1456,7 +1456,7 @@ header .button-group .profile-container {
   height: 18px;
   width: 24px;
   text-transform: uppercase;
-  background-image: url(../content/moog-img/handpiece_base.png);
+  background-image: url(../images/handpiece_base.png);
   top: 62px;
   left: 6px;
   padding-top: 6px;
@@ -1549,11 +1549,11 @@ header .button-group .profile-container {
 }
 /* line 343, ../components/angular-moog-components/dist/sass/simodont/tiles/_tiles.sass */
 .model .model-info-icon.inprogress {
-  background: url(../content/moog-img/attempt_icon_inProgress.png) no-repeat center;
+  background: url(../images/attempt_icon_inProgress.png) no-repeat center;
 }
 /* line 345, ../components/angular-moog-components/dist/sass/simodont/tiles/_tiles.sass */
 .model .model-info-icon.published {
-  background: url(../content/moog-img/attempt_icon_graded.png) no-repeat center;
+  background: url(../images/attempt_icon_graded.png) no-repeat center;
 }
 
 /* line 348, ../components/angular-moog-components/dist/sass/simodont/tiles/_tiles.sass */
@@ -1640,7 +1640,7 @@ header .button-group .profile-container {
   width: 6px;
   height: 40px;
   position: absolute;
-  background-image: url(../content/moog-img/group_dots.png);
+  background-image: url(../images/group_dots.png);
   background-repeat: repeat-y;
 }
 /* line 431, ../components/angular-moog-components/dist/sass/simodont/tiles/_tiles.sass */
@@ -1706,127 +1706,127 @@ header .button-group .profile-container {
 
 /* line 6, ../components/angular-moog-components/dist/sass/simodont/buttons/_buttons.sass */
 .calculus-touch-icon-only-button:after {
-  background: url("../content/moog-img/btn_calculus.png") no-repeat center;
+  background: url("../images/btn_calculus.png") no-repeat center;
 }
 
 /* line 6, ../components/angular-moog-components/dist/sass/simodont/buttons/_buttons.sass */
 .carius-touch-icon-only-button:after {
-  background: url("../content/moog-img/btn_carius.png") no-repeat center;
+  background: url("../images/btn_carius.png") no-repeat center;
 }
 
 /* line 6, ../components/angular-moog-components/dist/sass/simodont/buttons/_buttons.sass */
 .reset_pos-touch-icon-only-button:after {
-  background: url("../content/moog-img/btn_reset_pos.png") no-repeat center;
+  background: url("../images/btn_reset_pos.png") no-repeat center;
 }
 
 /* line 6, ../components/angular-moog-components/dist/sass/simodont/buttons/_buttons.sass */
 .snapshot-touch-icon-only-button:after {
-  background: url("../content/moog-img/btn_snapshot.png") no-repeat center;
+  background: url("../images/btn_snapshot.png") no-repeat center;
 }
 
 /* line 6, ../components/angular-moog-components/dist/sass/simodont/buttons/_buttons.sass */
 .zoom_in-touch-icon-only-button:after {
-  background: url("../content/moog-img/btn_zoom_in.png") no-repeat center;
+  background: url("../images/btn_zoom_in.png") no-repeat center;
 }
 
 /* line 6, ../components/angular-moog-components/dist/sass/simodont/buttons/_buttons.sass */
 .info-touch-icon-only-button:after {
-  background: url("../content/moog-img/btn_info.png") no-repeat center;
+  background: url("../images/btn_info.png") no-repeat center;
 }
 
 /* line 6, ../components/angular-moog-components/dist/sass/simodont/buttons/_buttons.sass */
 .zoom_out-touch-icon-only-button:after {
-  background: url("../content/moog-img/btn_zoom_out.png") no-repeat center;
+  background: url("../images/btn_zoom_out.png") no-repeat center;
 }
 
 /* line 6, ../components/angular-moog-components/dist/sass/simodont/buttons/_buttons.sass */
 .back_arrow-touch-icon-only-button:after {
-  background: url("../content/moog-img/btn_back_arrow.png") no-repeat center;
+  background: url("../images/btn_back_arrow.png") no-repeat center;
 }
 
 /* line 6, ../components/angular-moog-components/dist/sass/simodont/buttons/_buttons.sass */
 .gridview-touch-icon-only-button:after {
-  background: url("../content/moog-img/btn_gridview.png") no-repeat center;
+  background: url("../images/btn_gridview.png") no-repeat center;
 }
 
 /* line 6, ../components/angular-moog-components/dist/sass/simodont/buttons/_buttons.sass */
 .timeline-touch-icon-only-button:after {
-  background: url("../content/moog-img/btn_timeline.png") no-repeat center;
+  background: url("../images/btn_timeline.png") no-repeat center;
 }
 
 /* line 6, ../components/angular-moog-components/dist/sass/simodont/buttons/_buttons.sass */
 .settings-touch-icon-only-button:after {
-  background: url("../content/moog-img/btn_settings.png") no-repeat center;
+  background: url("../images/btn_settings.png") no-repeat center;
 }
 
 /* line 6, ../components/angular-moog-components/dist/sass/simodont/buttons/_buttons.sass */
 .home-touch-icon-only-button:after {
-  background: url("../content/moog-img/btn_home.png") no-repeat center;
+  background: url("../images/btn_home.png") no-repeat center;
 }
 
 /* line 6, ../components/angular-moog-components/dist/sass/simodont/buttons/_buttons.sass */
 .delete-touch-icon-only-button:after {
-  background: url("../content/moog-img/btn_delete.png") no-repeat center;
+  background: url("../images/btn_delete.png") no-repeat center;
 }
 
 /* line 14, ../components/angular-moog-components/dist/sass/simodont/buttons/_buttons.sass */
 .calculus-touch-icon-button:after {
-  background: url("../content/moog-img/btn_calculus.png") no-repeat center;
+  background: url("../images/btn_calculus.png") no-repeat center;
 }
 
 /* line 18, ../components/angular-moog-components/dist/sass/simodont/buttons/_buttons.sass */
 .calculus-icon-button:after {
-  background: url("../content/moog-img/btn_calculus.png") no-repeat center;
+  background: url("../images/btn_calculus.png") no-repeat center;
 }
 
 /* line 14, ../components/angular-moog-components/dist/sass/simodont/buttons/_buttons.sass */
 .carius-touch-icon-button:after {
-  background: url("../content/moog-img/btn_carius.png") no-repeat center;
+  background: url("../images/btn_carius.png") no-repeat center;
 }
 
 /* line 18, ../components/angular-moog-components/dist/sass/simodont/buttons/_buttons.sass */
 .carius-icon-button:after {
-  background: url("../content/moog-img/btn_carius.png") no-repeat center;
+  background: url("../images/btn_carius.png") no-repeat center;
 }
 
 /* line 14, ../components/angular-moog-components/dist/sass/simodont/buttons/_buttons.sass */
 .reset_pos-touch-icon-button:after {
-  background: url("../content/moog-img/btn_reset_pos.png") no-repeat center;
+  background: url("../images/btn_reset_pos.png") no-repeat center;
 }
 
 /* line 18, ../components/angular-moog-components/dist/sass/simodont/buttons/_buttons.sass */
 .reset_pos-icon-button:after {
-  background: url("../content/moog-img/btn_reset_pos.png") no-repeat center;
+  background: url("../images/btn_reset_pos.png") no-repeat center;
 }
 
 /* line 14, ../components/angular-moog-components/dist/sass/simodont/buttons/_buttons.sass */
 .snapshot-touch-icon-button:after {
-  background: url("../content/moog-img/btn_snapshot.png") no-repeat center;
+  background: url("../images/btn_snapshot.png") no-repeat center;
 }
 
 /* line 18, ../components/angular-moog-components/dist/sass/simodont/buttons/_buttons.sass */
 .snapshot-icon-button:after {
-  background: url("../content/moog-img/btn_snapshot.png") no-repeat center;
+  background: url("../images/btn_snapshot.png") no-repeat center;
 }
 
 /* line 14, ../components/angular-moog-components/dist/sass/simodont/buttons/_buttons.sass */
 .profile-touch-icon-button:after {
-  background: url("../content/moog-img/btn_profile.png") no-repeat center;
+  background: url("../images/btn_profile.png") no-repeat center;
 }
 
 /* line 18, ../components/angular-moog-components/dist/sass/simodont/buttons/_buttons.sass */
 .profile-icon-button:after {
-  background: url("../content/moog-img/btn_profile.png") no-repeat center;
+  background: url("../images/btn_profile.png") no-repeat center;
 }
 
 /* line 14, ../components/angular-moog-components/dist/sass/simodont/buttons/_buttons.sass */
 .group-case-selection-touch-icon-button:after {
-  background: url("../content/moog-img/btn_group-case-selection.png") no-repeat center;
+  background: url("../images/btn_group-case-selection.png") no-repeat center;
 }
 
 /* line 18, ../components/angular-moog-components/dist/sass/simodont/buttons/_buttons.sass */
 .group-case-selection-icon-button:after {
-  background: url("../content/moog-img/btn_group-case-selection.png") no-repeat center;
+  background: url("../images/btn_group-case-selection.png") no-repeat center;
 }
 
 /* line 21, ../components/angular-moog-components/dist/sass/simodont/buttons/_buttons.sass */
@@ -1839,7 +1839,7 @@ header .button-group .profile-container {
 .moog-touch-icon-button.blue.next-button:after, .blue.next-button.moog-touch-icon-only-button:after, .blue.next-button.calculus-touch-icon-only-button:after, .blue.next-button.carius-touch-icon-only-button:after, .blue.next-button.reset_pos-touch-icon-only-button:after, .blue.next-button.snapshot-touch-icon-only-button:after, .blue.next-button.zoom_in-touch-icon-only-button:after, .blue.next-button.info-touch-icon-only-button:after, .blue.next-button.zoom_out-touch-icon-only-button:after, .blue.next-button.back_arrow-touch-icon-only-button:after, .blue.next-button.gridview-touch-icon-only-button:after, .blue.next-button.timeline-touch-icon-only-button:after, .blue.next-button.settings-touch-icon-only-button:after, .blue.next-button.home-touch-icon-only-button:after, .blue.next-button.delete-touch-icon-only-button:after, .blue.next-button.calculus-touch-icon-button:after, .blue.next-button.calculus-icon-button:after, .blue.next-button.carius-touch-icon-button:after, .blue.next-button.carius-icon-button:after, .blue.next-button.reset_pos-touch-icon-button:after, .blue.next-button.reset_pos-icon-button:after, .blue.next-button.snapshot-touch-icon-button:after, .blue.next-button.snapshot-icon-button:after, .blue.next-button.profile-touch-icon-button:after, .blue.next-button.profile-icon-button:after, .blue.next-button.group-case-selection-touch-icon-button:after, .blue.next-button.group-case-selection-icon-button:after {
   left: auto;
   right: 0;
-  background: url("../content/moog-img/btn_white_arrow.png") no-repeat center;
+  background: url("../images/btn_white_arrow.png") no-repeat center;
 }
 
 /* line 30, ../components/angular-moog-components/dist/sass/simodont/buttons/_buttons.sass */
@@ -1852,47 +1852,47 @@ header .button-group .profile-container {
 .moog-icon-button.large.blue.next-button:after, .large.blue.next-button.moog-icon-only-button:after, .large.blue.next-button.plus-icon-only-button:after, .large.blue.next-button.minus-icon-only-button:after, .large.blue.next-button.delete-icon-only-button:after, .large.blue.next-button.zoom_in-icon-only-button:after, .large.blue.next-button.zoom_out-icon-only-button:after, .large.blue.next-button.back_arrow-icon-only-button:after, .large.blue.next-button.edit-icon-only-button:after, .large.blue.next-button.edit-tr-icon-only-button:after {
   left: auto;
   right: 0;
-  background: url("../content/moog-img/btn_white_arrow.png") no-repeat center;
+  background: url("../images/btn_white_arrow.png") no-repeat center;
 }
 
 /* line 44, ../components/angular-moog-components/dist/sass/simodont/buttons/_buttons.sass */
 .plus-icon-only-button:after {
-  background: url("../content/moog-img/btn_plus.png") no-repeat center;
+  background: url("../images/btn_plus.png") no-repeat center;
 }
 
 /* line 44, ../components/angular-moog-components/dist/sass/simodont/buttons/_buttons.sass */
 .minus-icon-only-button:after {
-  background: url("../content/moog-img/btn_minus.png") no-repeat center;
+  background: url("../images/btn_minus.png") no-repeat center;
 }
 
 /* line 44, ../components/angular-moog-components/dist/sass/simodont/buttons/_buttons.sass */
 .delete-icon-only-button:after {
-  background: url("../content/moog-img/btn_delete.png") no-repeat center;
+  background: url("../images/btn_delete.png") no-repeat center;
 }
 
 /* line 44, ../components/angular-moog-components/dist/sass/simodont/buttons/_buttons.sass */
 .zoom_in-icon-only-button:after {
-  background: url("../content/moog-img/btn_zoom_in.png") no-repeat center;
+  background: url("../images/btn_zoom_in.png") no-repeat center;
 }
 
 /* line 44, ../components/angular-moog-components/dist/sass/simodont/buttons/_buttons.sass */
 .zoom_out-icon-only-button:after {
-  background: url("../content/moog-img/btn_zoom_out.png") no-repeat center;
+  background: url("../images/btn_zoom_out.png") no-repeat center;
 }
 
 /* line 44, ../components/angular-moog-components/dist/sass/simodont/buttons/_buttons.sass */
 .back_arrow-icon-only-button:after {
-  background: url("../content/moog-img/btn_back_arrow.png") no-repeat center;
+  background: url("../images/btn_back_arrow.png") no-repeat center;
 }
 
 /* line 44, ../components/angular-moog-components/dist/sass/simodont/buttons/_buttons.sass */
 .edit-icon-only-button:after {
-  background: url("../content/moog-img/btn_edit.png") no-repeat center;
+  background: url("../images/btn_edit.png") no-repeat center;
 }
 
 /* line 44, ../components/angular-moog-components/dist/sass/simodont/buttons/_buttons.sass */
 .edit-tr-icon-only-button:after {
-  background: url("../content/moog-img/btn_edit-tr.png") no-repeat center;
+  background: url("../images/btn_edit-tr.png") no-repeat center;
 }
 
 /* line 1, components/angular-moog-components/dist/sass/simodont/modal/_modal.sass */
@@ -2073,16 +2073,16 @@ header .button-group .profile-container {
 
 /* line 10, components/angular-moog-components/dist/sass/simodont/cursors/_cursors.sass */
 .cursor_pencil {
-  cursor: url("../content/moog-img/pen-cursor.png"), auto;
+  cursor: url("../images/pen-cursor.png"), auto;
 }
 
 /* line 13, components/angular-moog-components/dist/sass/simodont/cursors/_cursors.sass */
 .cursor_eraser {
-  cursor: url("../content/moog-img/eraser-cursor.png"), auto;
+  cursor: url("../images/eraser-cursor.png"), auto;
 }
 
 /* line 6, components/angular-moog-components/dist/sass/simodont/tabs/_tabs.sass */
-/*.nav {
+.nav {
   list-style: none;
   margin: 10px 0;
   line-height: 38px;
@@ -2090,9 +2090,9 @@ header .button-group .profile-container {
   min-height: 44px;
   overflow: hidden;
   position: relative;
-}*/
+}
 /* line 15, components/angular-moog-components/dist/sass/simodont/tabs/_tabs.sass */
-/*.nav:before {
+.nav:before {
   position: absolute;
   content: " ";
   width: 100%;
@@ -2101,9 +2101,9 @@ header .button-group .profile-container {
   border-bottom: 1px solid #fff;
   box-shadow: 0 0 6px 0 rgba(123, 123, 123, 0.5);
   z-index: 1;
-}*/
+}
 /* line 25, components/angular-moog-components/dist/sass/simodont/tabs/_tabs.sass */
-/*.nav li {
+.nav li {
   min-width: 240px;
   border: 1px solid transparent;
   background: #e5e5e5;
@@ -2114,21 +2114,21 @@ header .button-group .profile-container {
   margin: 3px 8px;
   padding: 0 20px;
   height: 42px;
-}*/
+}
 /* line 37, components/angular-moog-components/dist/sass/simodont/tabs/_tabs.sass */
-/*.nav li.active {
+.nav li.active {
   background: #fff;
   box-shadow: 0 0 6px 0 rgba(123, 123, 123, 0.3);
   z-index: 2;
   font-weight: bold;
-}*/
+}
 /* line 43, components/angular-moog-components/dist/sass/simodont/tabs/_tabs.sass */
-/*.nav a {
+.nav a {
   color: #585858;
   display: block;
   margin-top: 2px;
   text-align: center;
-}*/
+}
 
 /* line 50, components/angular-moog-components/dist/sass/simodont/tabs/_tabs.sass */
 .tab-wrapper {
@@ -2290,7 +2290,7 @@ header .button-group .profile-container {
 
 /* line 1, components/angular-moog-components/dist/sass/simodont/login/login.sass */
 #login-bg {
-  background-image: url(../content/moog-img/bg_login.jpg);
+  background-image: url(../images/bg_login.jpg);
   background-repeat: no-repeat;
   background-position: right top;
 }
@@ -2386,35 +2386,35 @@ header .button-group .profile-container {
 }
 /* line 55, components/angular-moog-components/dist/sass/simodont/nav/_nav.sass */
 .navigation-panel li a span.nav-item-icon.cases {
-  background: url("../content/moog-img/nav_cases_active.png") no-repeat center;
+  background: url("../images/nav_cases_active.png") no-repeat center;
 }
 /* line 55, components/angular-moog-components/dist/sass/simodont/nav/_nav.sass */
 .navigation-panel li a span.nav-item-icon.curriculum {
-  background: url("../content/moog-img/nav_curriculum_active.png") no-repeat center;
+  background: url("../images/nav_curriculum_active.png") no-repeat center;
 }
 /* line 55, components/angular-moog-components/dist/sass/simodont/nav/_nav.sass */
 .navigation-panel li a span.nav-item-icon.instruments {
-  background: url("../content/moog-img/nav_instruments_active.png") no-repeat center;
+  background: url("../images/nav_instruments_active.png") no-repeat center;
 }
 /* line 55, components/angular-moog-components/dist/sass/simodont/nav/_nav.sass */
 .navigation-panel li a span.nav-item-icon.models {
-  background: url("../content/moog-img/nav_models_active.png") no-repeat center;
+  background: url("../images/nav_models_active.png") no-repeat center;
 }
 /* line 55, components/angular-moog-components/dist/sass/simodont/nav/_nav.sass */
 .navigation-panel li a span.nav-item-icon.reports {
-  background: url("../content/moog-img/nav_reports_active.png") no-repeat center;
+  background: url("../images/nav_reports_active.png") no-repeat center;
 }
 /* line 55, components/angular-moog-components/dist/sass/simodont/nav/_nav.sass */
 .navigation-panel li a span.nav-item-icon.students {
-  background: url("../content/moog-img/nav_students_active.png") no-repeat center;
+  background: url("../images/nav_students_active.png") no-repeat center;
 }
 /* line 55, components/angular-moog-components/dist/sass/simodont/nav/_nav.sass */
 .navigation-panel li a span.nav-item-icon.groups {
-  background: url("../content/moog-img/nav_groups_active.png") no-repeat center;
+  background: url("../images/nav_groups_active.png") no-repeat center;
 }
 /* line 55, components/angular-moog-components/dist/sass/simodont/nav/_nav.sass */
 .navigation-panel li a span.nav-item-icon.remote-viewer {
-  background: url("../content/moog-img/nav_remote-viewer_active.png") no-repeat center;
+  background: url("../images/nav_remote-viewer_active.png") no-repeat center;
 }
 /* line 58, components/angular-moog-components/dist/sass/simodont/nav/_nav.sass */
 .navigation-panel li a:hover {
@@ -2427,35 +2427,35 @@ header .button-group .profile-container {
 }
 /* line 66, components/angular-moog-components/dist/sass/simodont/nav/_nav.sass */
 .navigation-panel li a:active span.nav-item-icon.cases, .navigation-panel li a.active span.nav-item-icon.cases {
-  background: url("../content/moog-img/nav_cases_hoverpressed.png") no-repeat center;
+  background: url("../images/nav_cases_hoverpressed.png") no-repeat center;
 }
 /* line 66, components/angular-moog-components/dist/sass/simodont/nav/_nav.sass */
 .navigation-panel li a:active span.nav-item-icon.curriculum, .navigation-panel li a.active span.nav-item-icon.curriculum {
-  background: url("../content/moog-img/nav_curriculum_hoverpressed.png") no-repeat center;
+  background: url("../images/nav_curriculum_hoverpressed.png") no-repeat center;
 }
 /* line 66, components/angular-moog-components/dist/sass/simodont/nav/_nav.sass */
 .navigation-panel li a:active span.nav-item-icon.instruments, .navigation-panel li a.active span.nav-item-icon.instruments {
-  background: url("../content/moog-img/nav_instruments_hoverpressed.png") no-repeat center;
+  background: url("../images/nav_instruments_hoverpressed.png") no-repeat center;
 }
 /* line 66, components/angular-moog-components/dist/sass/simodont/nav/_nav.sass */
 .navigation-panel li a:active span.nav-item-icon.models, .navigation-panel li a.active span.nav-item-icon.models {
-  background: url("../content/moog-img/nav_models_hoverpressed.png") no-repeat center;
+  background: url("../images/nav_models_hoverpressed.png") no-repeat center;
 }
 /* line 66, components/angular-moog-components/dist/sass/simodont/nav/_nav.sass */
 .navigation-panel li a:active span.nav-item-icon.reports, .navigation-panel li a.active span.nav-item-icon.reports {
-  background: url("../content/moog-img/nav_reports_hoverpressed.png") no-repeat center;
+  background: url("../images/nav_reports_hoverpressed.png") no-repeat center;
 }
 /* line 66, components/angular-moog-components/dist/sass/simodont/nav/_nav.sass */
 .navigation-panel li a:active span.nav-item-icon.students, .navigation-panel li a.active span.nav-item-icon.students {
-  background: url("../content/moog-img/nav_students_hoverpressed.png") no-repeat center;
+  background: url("../images/nav_students_hoverpressed.png") no-repeat center;
 }
 /* line 66, components/angular-moog-components/dist/sass/simodont/nav/_nav.sass */
 .navigation-panel li a:active span.nav-item-icon.groups, .navigation-panel li a.active span.nav-item-icon.groups {
-  background: url("../content/moog-img/nav_groups_hoverpressed.png") no-repeat center;
+  background: url("../images/nav_groups_hoverpressed.png") no-repeat center;
 }
 /* line 66, components/angular-moog-components/dist/sass/simodont/nav/_nav.sass */
 .navigation-panel li a:active span.nav-item-icon.remote-viewer, .navigation-panel li a.active span.nav-item-icon.remote-viewer {
-  background: url("../content/moog-img/nav_remote-viewer_hoverpressed.png") no-repeat center;
+  background: url("../images/nav_remote-viewer_hoverpressed.png") no-repeat center;
 }
 /* line 71, components/angular-moog-components/dist/sass/simodont/nav/_nav.sass */
 .navigation-panel.expanded {
@@ -2476,7 +2476,7 @@ header .button-group .profile-container {
 }
 /* line 85, components/angular-moog-components/dist/sass/simodont/nav/_nav.sass */
 .navigation-panel.expanded .nav-toggle {
-  background-image: url("../content/moog-img/navigation-panel_icon_expanded.png");
+  background-image: url("../images/navigation-panel_icon_expanded.png");
   float: right;
 }
 /* line 88, components/angular-moog-components/dist/sass/simodont/nav/_nav.sass */
@@ -2485,7 +2485,7 @@ header .button-group .profile-container {
 }
 /* line 93, components/angular-moog-components/dist/sass/simodont/nav/_nav.sass */
 .navigation-panel .nav-toggle {
-  background-image: url("../content/moog-img/navigation-panel_icon_collapsed.png");
+  background-image: url("../images/navigation-panel_icon_collapsed.png");
   width: 28px;
   height: 28px;
   margin: 4px;
@@ -2494,7 +2494,7 @@ header .button-group .profile-container {
 }
 /* line 101, components/angular-moog-components/dist/sass/simodont/nav/_nav.sass */
 .navigation-panel .nav-toggle .icon {
-  background-image: url("../content/moog-img/icon_arrow_right.png");
+  background-image: url("../images/icon_arrow_right.png");
   background-repeat: no-repeat;
   background-position: center center;
   width: 28px;
@@ -4222,13 +4222,13 @@ div.ui-grid-cell input.ng-valid {
   content: "";
   top: 4px;
   left: 8px;
-  background: url("/images/icon_system-info.png") no-repeat no-repeat;
+  background: url("../images/icon_system-info.png") no-repeat no-repeat;
 }
 
 /* line 65, ../sass/_buttons.scss */
 .delete-icon-tile-button {
   position: absolute;
-  background: url("../content/moog-img/btn_delete.png") no-repeat center;
+  background: url("../images/btn_delete.png") no-repeat center;
   height: 24px;
   width: 24px;
   border-radius: 3px;
@@ -4238,13 +4238,13 @@ div.ui-grid-cell input.ng-valid {
 
 /* line 75, ../sass/_buttons.scss */
 .delete-icon-tile-button:hover {
-  background: url("../content/moog-img/btn_delete.png") no-repeat center, #b2b2b2;
+  background: url("../images/btn_delete.png") no-repeat center, #b2b2b2;
 }
 
 /* line 79, ../sass/_buttons.scss */
 .delete-icon-tile-button:active,
 .delete-icon-tile-button.active {
-  background: url("../content/moog-img/btn_delete.png") no-repeat center #d6d6d6;
+  background: url("../images/btn_delete.png") no-repeat center #d6d6d6;
   box-shadow: none;
   outline: none;
 }
@@ -4258,7 +4258,7 @@ div.ui-grid-cell input.ng-valid {
 /* line 90, ../sass/_buttons.scss */
 .delete-icon-hidden-button {
   position: absolute;
-  background: url("../content/moog-img/btn_delete.png") no-repeat center;
+  background: url("../images/btn_delete.png") no-repeat center;
   height: 24px;
   width: 24px;
   border: none;
@@ -4267,7 +4267,7 @@ div.ui-grid-cell input.ng-valid {
 
 /* line 98, ../sass/_buttons.scss */
 .delete-icon-hidden-button:hover {
-  background: url("../content/moog-img/btn_delete.png") no-repeat center, #e5e5e5;
+  background: url("../images/btn_delete.png") no-repeat center, #e5e5e5;
   border-radius: 3px;
   border: 1px solid rgba(224, 218, 218, 0.08);
 }
@@ -4275,7 +4275,7 @@ div.ui-grid-cell input.ng-valid {
 /* line 103, ../sass/_buttons.scss */
 .delete-icon-hidden-button:active,
 .delete-icon-hidden-button.active {
-  background: url("../content/moog-img/btn_delete.png") no-repeat center #d6d6d6;
+  background: url("../images/btn_delete.png") no-repeat center #d6d6d6;
   outline: none;
 }
 
@@ -5001,7 +5001,7 @@ tags-input .autocomplete .suggestion-list .suggestion-item em {
   float: left;
   color: #333;
   border: none;
-  background-image: url(../content/moog-img/alert_icon_success.png);
+  background-image: url(../images/alert_icon_success.png);
   border-radius: 3px;
   height: 44px;
   width: 100%;
@@ -5107,7 +5107,7 @@ tags-input .autocomplete .suggestion-list .suggestion-item em {
   display: block;
   width: 15px;
   height: 15px;
-  background-image: url(../content/moog-img/tooltip-icon.svg);
+  background-image: url(../images/tooltip-icon.svg);
   background-size: 15px;
 }
 /* line 86, ../sass/_models.scss */
@@ -5180,7 +5180,7 @@ tags-input .autocomplete .suggestion-list .suggestion-item em {
 .model-details-container .model-details-items .model-details-item-container .ideal-preps-container .ideal-prep-container .ideal-prep-file-name {
   font-weight: bold;
   padding-left: 15px;
-  background: url("../content/moog-img/checkmark.png") no-repeat;
+  background: url("../images/checkmark.png") no-repeat;
 }
 /* line 168, ../sass/_models.scss */
 .model-details-container .model-details-items .model-details-item-container .ideal-preps-container .ideal-prep-container .model-details dl.indent-list dt {
@@ -5915,15 +5915,15 @@ instrument-list {
 }
 /* line 192, ../sass/_instrument-editor.scss */
 .instrument-editor .instrument-selection-current .step-container.step-two-container .dropzones-container .drop-zone-container .drop-zone-header.selection-mandatory {
-  background: url("../content/moog-img/instrument-mandatory.png") no-repeat center 0;
+  background: url("../images/instrument-mandatory.png") no-repeat center 0;
 }
 /* line 196, ../sass/_instrument-editor.scss */
 .instrument-editor .instrument-selection-current .step-container.step-two-container .dropzones-container .drop-zone-container .drop-zone-header.selection-optional {
-  background: url("../content/moog-img/instrument-optional.png") no-repeat center 0;
+  background: url("../images/instrument-optional.png") no-repeat center 0;
 }
 /* line 200, ../sass/_instrument-editor.scss */
 .instrument-editor .instrument-selection-current .step-container.step-two-container .dropzones-container .drop-zone-container .drop-zone-header.selection-forbidden {
-  background: url("../content/moog-img/instrument-forbidden.png") no-repeat center 0;
+  background: url("../images/instrument-forbidden.png") no-repeat center 0;
 }
 /* line 205, ../sass/_instrument-editor.scss */
 .instrument-editor .instrument-selection-current .step-container.step-two-container .dropzones-container .drop-zone-container .drop-zone-instruments {
@@ -6034,7 +6034,7 @@ instrument-list {
 /* line 324, ../sass/_instrument-editor.scss */
 .instrument-editor.drag-instructions {
   max-width: 150px;
-  background: url(../content/moog-img/selection-arrow-icon.png) no-repeat center 270px;
+  background: url(../images/selection-arrow-icon.png) no-repeat center 270px;
   position: relative;
 }
 /* line 330, ../sass/_instrument-editor.scss */
@@ -6293,7 +6293,7 @@ select > .instrument-placeholder {
 }
 /* line 221, ../sass/_treatment-execution.scss */
 .treatment-execution-container .simulator-settings-container .realtime-statistics-container .realtime-statistics-content .segments-list:first-of-type li:after {
-  background: url(../content/moog-img/btn_plus.png) no-repeat center;
+  background: url(../images/btn_plus.png) no-repeat center;
 }
 /* line 225, ../sass/_treatment-execution.scss */
 .treatment-execution-container .simulator-settings-container .realtime-statistics-container .realtime-statistics-content .segments-list:nth-of-type(2) {
@@ -6302,7 +6302,7 @@ select > .instrument-placeholder {
 }
 /* line 229, ../sass/_treatment-execution.scss */
 .treatment-execution-container .simulator-settings-container .realtime-statistics-container .realtime-statistics-content .segments-list:nth-of-type(2) li:after {
-  background: url(../content/moog-img/btn_minus.png) no-repeat center;
+  background: url(../images/btn_minus.png) no-repeat center;
 }
 /* line 233, ../sass/_treatment-execution.scss */
 .treatment-execution-container .simulator-settings-container .realtime-statistics-container .realtime-statistics-content .segments-list ul {
@@ -6558,7 +6558,19 @@ select > .instrument-placeholder {
 
 /* line 15, ../sass/_planning.scss */
 .view {
-  min-height: 800px;
+    min-height: 800px;
+    position: relative;
+    float: left;
+    width: 1260px;
+    height: 930px;
+    padding: 12px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.5);
+    background-color: #fff;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 /* line 19, ../sass/_planning.scss */
@@ -6816,7 +6828,7 @@ select > .instrument-placeholder {
   height: 30px;
   right: 2px;
   z-index: 5;
-  background: url(../content/moog-img/delete.png) no-repeat center, -webkit-gradient(linear, left bottom, left top, from(#d6d6d6), to(#f6f6f6));
+  background: url(../images/delete.png) no-repeat center, -webkit-gradient(linear, left bottom, left top, from(#d6d6d6), to(#f6f6f6));
   border-radius: 50%;
 }
 /* line 282, ../sass/_planning-programs.scss */
@@ -6940,7 +6952,7 @@ select > .instrument-placeholder {
 /* line 7, ../sass/_planning-program-details.scss */
 .program-details-items-container.container-after-sidebar .drag-instructions {
   width: 150px;
-  background: url(../content/moog-img/selection-arrow-icon.png) no-repeat center 270px;
+  background: url(../images/selection-arrow-icon.png) no-repeat center 270px;
   position: relative;
 }
 /* line 13, ../sass/_planning-program-details.scss */
@@ -7005,7 +7017,7 @@ select > .instrument-placeholder {
 
 /* line 74, ../sass/_planning-program-details.scss */
 .instruction-text {
-  background: url("../content/moog-img/instrument-mandatory.png") no-repeat center 20px;
+  background: url("../images/instrument-mandatory.png") no-repeat center 20px;
   font-weight: bold;
   font-size: 20px;
 }
@@ -7152,7 +7164,7 @@ input[type=checkbox].assignment-checkbox {
   height: 23px;
   background-repeat: no-repeat;
   width: 27px;
-  background-image: url("../content/moog-img/checkbox_assignments.png");
+  background-image: url("../images/checkbox_assignments.png");
 }
 /* line 141, ../sass/_planning-assignments.scss */
 input[type=checkbox].assignment-checkbox:first-letter {
@@ -7415,23 +7427,23 @@ i.ui-grid-icon-down-dir {
 }
 /* line 37, ../sass/_remote-viewer.scss */
 .dentaltrainer-menu .dentaltrainer-menu-inner ul.dentaltrainer-menu-item-container li.menu-item .status-icon.online {
-  background: url("../content/moog-img/simodont_status_online.png") no-repeat center;
+  background: url("../images/simodont_status_online.png") no-repeat center;
 }
 /* line 37, ../sass/_remote-viewer.scss */
 .dentaltrainer-menu .dentaltrainer-menu-inner ul.dentaltrainer-menu-item-container li.menu-item .status-icon.offline {
-  background: url("../content/moog-img/simodont_status_offline.png") no-repeat center;
+  background: url("../images/simodont_status_offline.png") no-repeat center;
 }
 /* line 37, ../sass/_remote-viewer.scss */
 .dentaltrainer-menu .dentaltrainer-menu-inner ul.dentaltrainer-menu-item-container li.menu-item .status-icon.loggedIn {
-  background: url("../content/moog-img/simodont_status_loggedIn.png") no-repeat center;
+  background: url("../images/simodont_status_loggedIn.png") no-repeat center;
 }
 /* line 37, ../sass/_remote-viewer.scss */
 .dentaltrainer-menu .dentaltrainer-menu-inner ul.dentaltrainer-menu-item-container li.menu-item .status-icon.execution {
-  background: url("../content/moog-img/simodont_status_execution.png") no-repeat center;
+  background: url("../images/simodont_status_execution.png") no-repeat center;
 }
 /* line 37, ../sass/_remote-viewer.scss */
 .dentaltrainer-menu .dentaltrainer-menu-inner ul.dentaltrainer-menu-item-container li.menu-item .status-icon.pinned {
-  background: url("../content/moog-img/simodont_status_pinned.png") no-repeat center;
+  background: url("../images/simodont_status_pinned.png") no-repeat center;
 }
 /* line 43, ../sass/_remote-viewer.scss */
 .dentaltrainer-menu .dentaltrainer-menu-inner ul.dentaltrainer-menu-item-container li.menu-item .info-container {
@@ -7448,7 +7460,7 @@ i.ui-grid-icon-down-dir {
   width: 6px;
   height: 40px;
   position: absolute;
-  background-image: url(../content/moog-img/group_dots.png);
+  background-image: url(../images/group_dots.png);
   background-repeat: repeat-y;
 }
 
@@ -7508,21 +7520,21 @@ i.ui-grid-icon-down-dir {
 }
 /* line 116, ../sass/_remote-viewer.scss */
 .dentaltrainer-container .viewer-toolbar .layout-container .layout-buttons .layout-icon.one {
-  background: url("../content/moog-img/layout_icon_one.png") no-repeat center;
+  background: url("../images/layout_icon_one.png") no-repeat center;
   width: 18px;
   height: 18px;
   margin-right: 5px;
 }
 /* line 116, ../sass/_remote-viewer.scss */
 .dentaltrainer-container .viewer-toolbar .layout-container .layout-buttons .layout-icon.four {
-  background: url("../content/moog-img/layout_icon_four.png") no-repeat center;
+  background: url("../images/layout_icon_four.png") no-repeat center;
   width: 18px;
   height: 18px;
   margin-right: 5px;
 }
 /* line 116, ../sass/_remote-viewer.scss */
 .dentaltrainer-container .viewer-toolbar .layout-container .layout-buttons .layout-icon.eight {
-  background: url("../content/moog-img/layout_icon_eight.png") no-repeat center;
+  background: url("../images/layout_icon_eight.png") no-repeat center;
   width: 18px;
   height: 18px;
   margin-right: 5px;
