@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+.navigation-panel.expanded {
+    height: 100%;
+}
+
 /* line 2, components/angular-moog-components/dist/sass/basics/buttons/_buttons.sass */
 .base-button, .moog-button, .moog-icon-button, .moog-icon-only-button, .plus-icon-only-button, .minus-icon-only-button, .delete-icon-only-button, .zoom_in-icon-only-button, .zoom_out-icon-only-button, .back_arrow-icon-only-button, .edit-icon-only-button, .edit-tr-icon-only-button, .quickdate-popup-footer .quickdate-clear, .moog-touch-button, .moog-touch-icon-button, .moog-touch-icon-only-button, .calculus-touch-icon-only-button, .carius-touch-icon-only-button, .reset_pos-touch-icon-only-button, .snapshot-touch-icon-only-button, .zoom_in-touch-icon-only-button, .info-touch-icon-only-button, .zoom_out-touch-icon-only-button, .back_arrow-touch-icon-only-button, .gridview-touch-icon-only-button, .timeline-touch-icon-only-button, .settings-touch-icon-only-button, .home-touch-icon-only-button, .delete-touch-icon-only-button, .calculus-touch-icon-button, .calculus-icon-button, .carius-touch-icon-button, .carius-icon-button, .reset_pos-touch-icon-button, .reset_pos-icon-button, .snapshot-touch-icon-button, .snapshot-icon-button, .profile-touch-icon-button, .profile-icon-button, .group-case-selection-touch-icon-button, .group-case-selection-icon-button {
   box-sizing: border-box;

@@ -59,13 +59,24 @@ module.exports = yeoman.Base.extend({
     ); 
     this.fs.copy(
       this.templatePath('images/icon-system-info.png'),
-      this.destinationPath('images/icon-system-info.png')
+      this.destinationPath('images/icon_system-info.png')
     );  
     this.fs.copy(
       this.templatePath('images/icon_arrow_left.png'),
       this.destinationPath('images/icon_arrow_left.png')
-    );            
-
+    );  
+    this.fs.copy(
+      this.templatePath('images/glow.png'),
+      this.destinationPath('images/glow.png')
+    ); 
+    this.fs.copy(
+      this.templatePath('images/navigation-panel_icon_expanded.png'),
+      this.destinationPath('images/navigation-panel_icon_expanded.png')
+    );     
+    this.fs.copy(
+      this.templatePath('images/icon_arrow_left.png'),
+      this.destinationPath('images/icon_arrow_left.png')
+    );                   
   },
 
   install: function () {
