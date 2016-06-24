@@ -1,73 +1,65 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Moog</title>
-	  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-	  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-	  <link rel="stylesheet" href="css/screen.css">
-	  <link rel="stylesheet" href="css/moog-angular-css.css">
+  <head lang="en">
+    <meta charset="UTF-8">
+    <title>Moog app</title>
+      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="css/main.css">
+  </head>
+<body class="responsive">
 
-</head>
-<body>
-<nav class="navbar">
-	<div class="navbar-header">
-		<a href="#" class="navbar-brand" style="background-image: url(img/logo.png) ">
-			<span class="navbar-span">Web Application Name</span>
-		</a>
-	</div>
-	<div class="dropdown" role="menu" id="info-div">
-      <div aria-expanded="true" aria-haspopup="true" class="dropdown-toggle" data-toggle="dropdown" id="dropdownMenu1">
-        <span class="info-btn"><img src="img/icon-system-info.png" alt="icon system info" /></span>
+  <!-- header moog  -->
+  <header ng-controller="HeaderController" ng-include="'views/includes/header.html'">
+    <div ng-init="init()" class="ng-scope">
+      <div class="logo"></div>
+      <div class="title">Name App</div>
+
+      <div class="button-group large right">
+        <div ng-switch="loggedIn" class="profile-container">
+          <!-- ngSwitchWhen: true -->
+          <!-- ngSwitchWhen: false -->
+        </div>
+
+        <div class="info-button moog-touch-icon-only-button secondary transparent" ng-click="showSystemInfo()"></div>
+
       </div>
-      <ul aria-labelledby="dropdownMenu1 " class="dropdown-menu dropdown-right">
-        <li class="divider"><a href="#">Application Version</a></li>
-        <li class="divider"><a href="#">Copyright Information</a></li>
-        <li class="divider"><a href="#">Legal Notes</a></li>
-        <li class="divider"><a href="#">Privacy Policy</a></li>
-      </ul>
     </div>
-</nav>
-    <div class="content">
-      <div class="navigation-panel expanded ">
-                <div class="nav-toggle" title="Click to expand the navigation panel">
-                  <div class="icon"></div>
-                </div>
-                <ul class="main-menu">
-                  <li class="header">
-                    Main Item
-                  </li>
-                  <li><a class="active">
-                    <span class="nav-item-icon cases" title="target.main-menu.tooltip.cases"></span>
-                    <span class="nav-item-text" title="Cases"> Sub Item</span>
-                  </a>
-                </li>
-                <li><a><span class="nav-item-icon instruments" title="target.main-menu.tooltip.instruments"></span>
-                  <span class="nav-item-text" title="Instruments">Sub Item</span>
-                </a>
-              </li>
-              <li class="header">
-                Main Item
-              </li>
-              <li><a>
-                <span class="nav-item-icon curriculum" title="target.main-menu.tooltip.curriculum"></span>
-                <span class="nav-item-text " title="Curriculum">Sub Item</span>
-              </a></li>
-              <li><a>
-                <span class="nav-item-icon groups" title="target.main-menu.tooltip.groups"></span>
-                <span class="nav-item-text " title="Groups">Sub Item</span>
-              </a>
-            </li>
-            <li><a>
-              <span class="nav-item-icon students" title="target.main-menu.tooltip.users"></span>
-              <span class="nav-item-text " title="Users"> Sub Item</span>
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div id="footer">
+  </header>
+  <!-- end header moog  -->
+  
+   <div class="content-wrapper">
+        <notifications class="notifications-container"></notifications>
+          <div class="main">
         
+             <!-- Nav moog (needs to created in Angular) -->
+              <main-menu class="main-menu"><!-- ngIf: showMenu -->
+               <div class="navigation-panel expanded ng-scope" ng-if="showMenu" ng-init="init()" style="">
+                      <div class="nav-toggle" title="Click to expand the navigation panel" ng-click="togglePanel()">
+                        <div class="icon"></div>
+                      </div>
+                      <ul>
+                      <!-- ngRepeat: category in menuItems -->
+                        <li class="ng-binding ng-scope" ng-repeat-start="category in menuItems"> 
+                        </li>
+                      </ul>
+                    </div><!-- end ngIf: showMenu -->
+                </main-menu>
+               <!-- end Nav moog  -->
+                <div class="view">
+                  <div class="jumbotron">
+                    <h1>Hello, MOOG world!</h1>
+                    <p>let's create Functionality!</p>
+                  </div>
+                </div>
+          </div>
+          <!-- footer moog  -->
+            <footer></footer>
+          <!-- end footer moog  -->
       </div>
     </div>
+
 </body>
+
 </html>
