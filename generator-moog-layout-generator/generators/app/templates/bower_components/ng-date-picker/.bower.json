@@ -1,0 +1,39 @@
+{
+  "name": "ngDatePicker",
+  "version": "1.3.5",
+  "main": [
+    "dist/ng-quick-date.js",
+    "dist/ng-quick-date.css",
+    "dist/ng-quick-date-default-theme.css"
+  ],
+  "ignore": [
+    "bower_components",
+    "node_modules",
+    "spec",
+    "src",
+    "vendor",
+    "Gruntfile.js",
+    "karma.conf.coffee",
+    "package.json",
+    "screenshot.png"
+  ],
+  "dependencies": {
+    "angular": "~1.2.0"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.2.0",
+    "jasmine": "~1.3.1",
+    "karma-jasmine": "~0.1.3",
+    "jquery": "~2.0"
+  },
+  "homepage": "https://github.com/KillerCodeMonkey/ngDatePicker",
+  "_release": "1.3.5",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.3.5",
+    "commit": "13b8626394d79312b6a7df804480ff21aa14abbf"
+  },
+  "_source": "https://github.com/KillerCodeMonkey/ngDatePicker.git",
+  "_target": "1.3.5",
+  "_originalSource": "ng-date-picker"
+}
